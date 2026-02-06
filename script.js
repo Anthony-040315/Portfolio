@@ -168,7 +168,7 @@ function simulateFormSubmission(formData) {
                 });
                 
                 // In real implementation, you would send to a server:
-                /*
+                
                 fetch('https://your-api-endpoint.com/contact', {
                     method: 'POST',
                     headers: {
@@ -179,7 +179,7 @@ function simulateFormSubmission(formData) {
                 .then(response => response.json())
                 .then(data => resolve(data))
                 .catch(error => reject(error));
-                */
+                
             } else {
                 reject(new Error('Simulated server error'));
             }

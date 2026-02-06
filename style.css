@@ -523,13 +523,15 @@ nav .container {
 
 .photo-stats {
     display: flex;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 2rem;
+    gap: 5rem;
     margin-top: 3rem;
 }
 
 .stat-item {
     text-align: center;
+    justify-content: center;
 }
 
 .stat-number {
