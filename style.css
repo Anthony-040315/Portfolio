@@ -530,7 +530,7 @@ nav .container {
     justify-content: center;
     color: var(--text-light);
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 20px;
     width: 100%;
 }
 
@@ -538,11 +538,13 @@ nav .container {
     max-width: 800px;
     padding: 0 20px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .photo-content h2 {
     color: var(--text-light);
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .photo-content h2:after {
@@ -554,11 +556,13 @@ nav .container {
     line-height: 1.7;
     margin-bottom: 2rem;
     opacity: 0.9;
+    text-align: center;
 }
 
 .photo-stats {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
     margin-top: 3rem;
     flex-wrap: wrap;
@@ -566,6 +570,9 @@ nav .container {
 
 .stat-item {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .stat-number {
@@ -809,7 +816,7 @@ footer {
 .tech-icon {
     width: 50px;
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
     border-radius: 20%;
     display: flex;
     align-items: center;
@@ -820,7 +827,7 @@ footer {
 }
 
 .tech-icon:hover {
-    background-color: var(--accent);
+    background-color: rgba(74, 91, 156, 0.2);
     color: white;
     transform: translateY(-5px);
 }
